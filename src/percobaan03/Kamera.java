@@ -1,8 +1,8 @@
 package percobaan03;
 public class Kamera {
-    String Merk;
-    String Megapixel;
-    String Harga;
+    private String Merk;
+    private String Megapixel;
+    private String Harga;
     
     void cetakInfo(){
         System.out.println("Merk \t: "+Merk+"\n"+
