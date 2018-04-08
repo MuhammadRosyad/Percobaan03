@@ -9,4 +9,31 @@ public class Kamera {
                 "Megapixel \t: "+Megapixel+"\n"+
                 "Harga \t:"+Harga);
     }
+
+    public String getMerk() {
+        return Merk;
+    }
+
+    public void setMerk(String Merk) {
+        this.Merk = Merk;
+    }
+
+    public String getMegapixel() {
+        return Megapixel;
+    }
+
+    public void setMegapixel(String Megapixel) {
+        this.Megapixel = Megapixel;
+    }
+
+    public String getHarga() {
+        return Harga;
+    }
+
+    public void setHarga(String Harga) {
+        this.Harga = Harga;
+    }
+    
+    
+    
 }
