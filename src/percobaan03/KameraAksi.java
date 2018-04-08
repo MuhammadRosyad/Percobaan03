@@ -6,7 +6,7 @@ public class KameraAksi {
         k.setMerk("Canon");
         k.setMegapixel("20");
         k.setHarga("5000");
-        
+        //gak bisa k.setJenisKamera();
         k.cetakInfo();
         
         System.out.print("Merknya \t: ");
@@ -15,5 +15,15 @@ public class KameraAksi {
         System.out.println(k.getMegapixel());
         System.out.print("Harganya \t: ");
         System.out.println(k.getHarga());
+    
+        KameraFilm kf = new KameraFilm();
+        kf.setMerk("Sony");
+        kf.setMegapixel("27");
+        kf.setHarga("7200");
+        kf.setJenisKamera("Professional");
+        kf.cetakInfo();
+        System.out.println("Jenis :"+kf.getJenisKamera());
+        kf.throttle();
+        
     }
 }
