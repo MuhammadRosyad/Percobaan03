@@ -5,5 +5,15 @@ public class KameraFilm extends Kamera {
     void throttle(){
         System.out.println("JEPREEETTT..");
     }
+
+    public String getJenisKamera() {
+        return JenisKamera;
+    }
+
+    public void setJenisKamera(String JenisKamera) {
+        this.JenisKamera = JenisKamera;
+    }
+    
+    
     
 }
